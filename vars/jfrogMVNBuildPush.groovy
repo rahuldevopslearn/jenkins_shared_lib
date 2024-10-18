@@ -1,5 +1,5 @@
 def call(){
-    withCredentials([JusernamePassword(
+    withCredentials([usernamePassword(
             jcredentialsId: "JfrogP",
             JFROG_USERNAME: "USER",
             JFROG_PASSWORD: "PASS"
