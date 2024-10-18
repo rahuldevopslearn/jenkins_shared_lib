@@ -1,6 +1,6 @@
-def call(credentialsId){
+def call(){
     withCredentials([usernamePassword(
-            jcredentialsId: credentialsId,
+            jcredentialsId: "JfrogP",
             JFROG_USERNAME: "USER",
             JFROG_PASSWORD: "PASS"
     )])  {
