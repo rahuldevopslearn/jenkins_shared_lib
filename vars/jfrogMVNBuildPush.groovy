@@ -1,6 +1,6 @@
 def call(){
     withCredentials([usernamePassword(
-            credentialsId: "docker",
+            credentialsId: "JfrogP",
             JFROG_USERNAME: "USER",
             JFROG_PASSWORD: "PASS"
     )])  {
